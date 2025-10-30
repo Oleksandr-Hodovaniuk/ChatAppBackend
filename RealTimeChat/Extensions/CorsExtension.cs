@@ -12,7 +12,8 @@ public static class CorsExtension
                 builder
                     .WithOrigins(
                         "http://localhost:4200",  
-                        "https://localhost:4200")
+                        "https://localhost:4200",
+                        "https://orange-mud-0a599b003.3.azurestaticapps.net")
                     .AllowAnyHeader()
                     .AllowAnyMethod()
                     .AllowCredentials()
